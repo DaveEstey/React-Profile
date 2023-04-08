@@ -1,4 +1,9 @@
+div{
+    display: flex;
+    justify-content: center;
+}
 h1 {
     font-size: 70px;
     font-weight: 600;
+    margin-bottom: 100px;
 }

@@ -1,6 +1,15 @@
+div {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+img {
+  border-radius: 50%;
+}
+
 p {
-    padding-left: 3%;
-    display: flex;
-    justify-content: center;
-    padding-right: 15%;
+  padding-left: 3%;
+  display: flex;
+  justify-content: center;
+  color: aliceblue;
 }

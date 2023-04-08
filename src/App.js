@@ -19,9 +19,10 @@ return (
     <Route path='/contact' Component= { Contact } />
     <Route path='/projects' Component= { Projects } />
     <Route path='/resume' Component= { Contact }/>
+    <Route path='/react-profile/contact' Component={ Contact }/>
     </Routes>
     <Footer/>
-    
+
     </BrowserRouter>
     )   
 }
