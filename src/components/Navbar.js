@@ -1,27 +1,52 @@
-import React from 'react'
-import './Navbar.css'
-import { Link, NavLink } from 'react-router-dom'
-
-
-
-
+import React, { useState } from "react";
+import "../styles/Navbar.css";
+import { Link, NavLink } from "react-router-dom";
 
 function Navbar() {
-  return (
-    <>
+  const [isChecked, setIsChecked] = useState(false);
 
-  	<input class="menu-icon" type="checkbox" id="menu-icon" name="menu-icon"/>
-  	<label for="menu-icon"></label>
-  	<nav class="nav"> 		
-  		<ul class="pt-5">
-  			<li><NavLink to="/">About Me </NavLink></li>
-  			<li><NavLink to="/projects">Projects</NavLink></li>
-  			<li><NavLink to="/contact">Contact Me</NavLink></li>
-  			<li><Link to="/resume">Resume</Link></li>
-  		</ul>
-  	</nav>
-    </>
-    )
-}
+  const handleLinkClick = () => {
+   setIsChecked(false);
+  
+  };
 
-export default Navbar
+  const switchCheck = () => {
+    setIsChecked(!isChecked)
+  }
+
+
+    return (
+      <>
+        <input
+          className="menu-icon"
+          type="checkbox"
+          id="menu-icon"
+          name="menu-icon"
+          onChange={switchCheck}
+          checked={isChecked}
+        />
+        <label htmlFor="menu-icon"></label>
+        <nav className="nav">
+          <ul className="pt-5">
+            <li onClick={handleLinkClick}>
+              <NavLink to="/">
+                About Me{" "}
+              </NavLink>
+            </li>
+            <li onClick={handleLinkClick}>
+              <NavLink to="/projects">Projects</NavLink>
+            </li>
+            <li>
+              <NavLink to="/contact" onClick={handleLinkClick}>Contact Me</NavLink>
+            </li>
+            <li>
+              <Link to="/resume" onClick={handleLinkClick}>Resume</Link>
+            </li>
+          </ul>
+        </nav>
+      </>
+    );
+  };
+
+
+export default Navbar;
