@@ -15,6 +15,7 @@ return (
     <Navbar/>
     <Header/>
     <Routes>
+    <Route path='/react-profile' Component= { About } />
     <Route path='/' Component= { About } />
     <Route path='/contact' Component= { Contact } />
     <Route path='/projects' Component= { Projects } />

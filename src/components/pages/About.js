@@ -6,8 +6,12 @@ function About() {
   return (
 
     <div >
-      <img src={mugshot} alt="" className="" />
-      <p> 
+      <img src={mugshot} alt="Mugshot of David Estey" className="" />
+      
+      <p>
+      <br />
+      <br />
+      <br /> 
         Hello to whom is interested! My name is David Estey, born and raised in Fredericton, NB.
         <br />
         I am just about to complete a Full Stack Developer Boot camp through UNB, and am ready to expand my knowledge in the feild of technology.

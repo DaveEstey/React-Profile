@@ -4,9 +4,33 @@ import { Link, NavLink } from "react-router-dom";
 
 function Navbar() {
   const [isChecked, setIsChecked] = useState(false);
+  const [repos, setRepos] = useState([])
+    
+
+
+    const getRepos= async () => { 
+        try{
+          const data = await fetch (`https://api.github.com/users/DavidEstey/repos`, {
+            headers: {Authentication: 'Bearer {token}'}
+          })
+             .then(resp => resp.json())
+             .then(json => console.log(JSON.stringify(json)))
+           setRepos(data)
+        }
+        catch (err) {
+          console.error(err)
+        }
+      }
+      
+  const handleRepoLinkClick = () => {
+    getRepos();
+    setIsChecked(false);
+  } 
 
   const handleLinkClick = () => {
-   setIsChecked(false);
+    
+    setIsChecked(false);
+
   
   };
 
@@ -33,8 +57,8 @@ function Navbar() {
                 About Me{" "}
               </NavLink>
             </li>
-            <li onClick={handleLinkClick}>
-              <NavLink to="/projects">Projects</NavLink>
+            <li >
+              <NavLink to="/projects" onClick={handleRepoLinkClick} data={repos}>Projects</NavLink>
             </li>
             <li>
               <NavLink to="/contact" onClick={handleLinkClick}>Contact Me</NavLink>

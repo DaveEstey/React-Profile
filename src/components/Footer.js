@@ -4,9 +4,9 @@ import ".././styles/Footer.css";
 function Footer() {
   return (
     <footer>
-      <div class="footer-social-icons">
+      <div className="footer-social-icons">
         <h4>Find me at:</h4>
-        <ul class="social-icons">
+        <ul className="social-icons">
           <li>
             <a href="https://github.com/DaveEstey" class="social-icon">
               <i className="fa fa-github"></i>
@@ -15,9 +15,9 @@ function Footer() {
           <li>
             <a
               href="https://www.linkedin.com/in/david-estey-72473a25a/"
-              class="social-icon"
+              className="social-icon"
             >
-              <i class="fa fa-linkedin"></i>
+              <i className="fa fa-linkedin"></i>
             </a>
           </li>
         </ul>
