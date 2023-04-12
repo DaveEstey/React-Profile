@@ -1,0 +1,14 @@
+.full {
+  width: max-content;
+  height: auto;
+}
+
+.cardSizeSmall{
+width: 25%;
+height: 25%;
+margin-left: 6%;
+}
+
+img:hover {
+  background-color: black;
+}

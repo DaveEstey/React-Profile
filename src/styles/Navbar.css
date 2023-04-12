@@ -271,3 +271,7 @@ h1{
     font-size: 8vh;
   }
 }
+
+.horizontalFlex {
+  flex-direction: row;
+}
