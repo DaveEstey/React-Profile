@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "../styles/Navbar.css";
 import { Link, NavLink } from "react-router-dom";
 
+
 function Navbar() {
   const [isChecked, setIsChecked] = useState(false);
 
@@ -15,7 +16,6 @@ function Navbar() {
   const switchCheck = () => {
     setIsChecked(!isChecked)
   }
-
 
     return (
       <>
