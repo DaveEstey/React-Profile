@@ -7,7 +7,7 @@ const Projects = (props) => {
           {props.data.map((project, index) => (
             <div key={index} className="card cardSizeSmall">
               <div className="card-image ">
-              <img className="full" src={project.img} alt="Picture of deployed site"/>
+              <a href={project.deployed}><img className="full" src={project.img} alt="Picture of deployed site"/></a>
               <br/>
               <a href={project.deployed}> {project.title}</a>
               <br />
