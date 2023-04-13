@@ -1,10 +1,8 @@
 import React from 'react'
-import { Email } from "https://smtpjs.com/v3/smtp.js"
-
 function Contact() {
   
  const sendEmail = () => {
-    Email.send({
+    window.Email.send({
         SecureToken: "d1bf38d0-43bc-48a7-9d37-dd517df723fa",
         To: 'daveestey.working@gmail.com',
         From: document.getElementById('email').value,
