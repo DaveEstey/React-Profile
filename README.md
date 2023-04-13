@@ -2,7 +2,7 @@
 
 ## Description
   
-This project is to be used as an understanding of how to use componenets within React, and React in general. In this project, you can see how you can use browserRouter to be able to navigate the application and even downloading my resume!
+This project is to be used as an understanding of how to use components within React, and React as a whole. In this project, you can see how you can use browserRouter to be able to navigate the application, using a third party contact me page and even downloading my resume!
   
 ## Table of Contents
   
