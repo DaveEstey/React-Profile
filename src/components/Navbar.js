@@ -46,7 +46,7 @@ function Navbar() {
               <NavLink to="/contact" onClick={handleLinkClick}>Contact Me</NavLink>
             </li>
             <li>
-              <Link to="https://github.com/DaveEstey/react-profile/raw/main/src/images/DEresume.pdf" onClick={handleLinkClick}>Resume</Link>
+              <Link to="https://github.com/DaveEstey/react-profile/raw/main/src/DEresume.pdf" onClick={handleLinkClick}>Resume</Link>
             </li>
           </ul>
         </nav>
