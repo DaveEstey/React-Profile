@@ -20,3 +20,17 @@ img.overlay:hover {
 
 
 }
+
+.cardHead {
+    font-size: larger;
+    color: azure;
+}
+
+a:hover{
+    text-decoration: underline;
+    color:lightblue;
+}
+
+h3{
+    color: azure;
+}
