@@ -6,7 +6,7 @@ function About() {
   return (
 
     <div >
-      <img src={mugshot} alt="Mugshot of David Estey" className="" />
+      <img className='mug' src={mugshot} alt="Mugshot of David Estey" />
       
       <p>
       <br />

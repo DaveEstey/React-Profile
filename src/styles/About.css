@@ -8,7 +8,7 @@ div p{
 justify-content: center;
 }
 
-img {
+img.mug {
   display: flex;
   border-radius: 50%;
   margin-right:60%;
