@@ -3,6 +3,12 @@ import Projects from "../Projects";
 
 const Portfolio = () => {
   const info = [
+     {
+      title: "Body Buddy",
+      img: "https://raw.githubusercontent.com/DaveEstey/react-profile/main/src/images/body_buddy.png",
+      github: "https://github.com/DaveEstey/body-buddy",
+      deployed: "https://body-buddy.herokuapp.com/",
+    },
     {
       title: "Bootcamp Work Finder",
       img: "https://raw.githubusercontent.com/DaveEstey/react-profile/main/src/images/bootcamp.png",
@@ -20,12 +26,6 @@ const Portfolio = () => {
       img: "https://raw.githubusercontent.com/DaveEstey/react-profile/main/src/images/team_gen.png",
       github: "https://github.com/DaveEstey/Team-Profile-Generator",
       deployed: "https://github.com/DaveEstey/Team-Profile-Generator",
-    },
-    {
-      title: "Body Buddy",
-      img: "https://raw.githubusercontent.com/DaveEstey/react-profile/main/src/images/body_buddy.png",
-      github: "https://github.com/DaveEstey/body-buddy",
-      deployed: "https://github.com/DaveEstey/body-buddy",
     },
     {
       title: "Text Editor",
