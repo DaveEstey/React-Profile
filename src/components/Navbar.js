@@ -16,10 +16,6 @@ function Navbar() {
   const switchCheck = () => {
     setIsChecked(!isChecked)
   }
-
-  const handleDownload = () => {
-        
-  };
   
     return (
       <>
@@ -46,7 +42,7 @@ function Navbar() {
               <NavLink to="/contact" onClick={handleLinkClick}>Contact Me</NavLink>
             </li>
             <li>
-              <Link to="https://github.com/DaveEstey/react-profile/raw/main/src/DEresume.pdf" onClick={handleLinkClick}>Resume</Link>
+              <Link to="https://github.com/DaveEstey/react-profile/raw/main/src/David_Estey_resume.docx" onClick={handleLinkClick}>Resume</Link>
             </li>
           </ul>
         </nav>
