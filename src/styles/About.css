@@ -6,12 +6,14 @@ div {
 
 div p{
 justify-content: center;
+align-items: center;
 }
 
 img.mug {
   display: flex;
   border-radius: 50%;
   margin-right:60%;
+
 
 }
 
