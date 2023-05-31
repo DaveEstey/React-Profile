@@ -1,14 +1,14 @@
 {
-  "files": {
-    "main.css": "/react-profile/static/css/main.a43f8a5f.css",
-    "main.js": "/react-profile/static/js/main.4d1b3c15.js",
-    "static/media/mugshot.jpg": "/react-profile/static/media/mugshot.f4096f37d19f727fc571.jpg",
-    "index.html": "/react-profile/index.html",
-    "main.a43f8a5f.css.map": "/react-profile/static/css/main.a43f8a5f.css.map",
-    "main.4d1b3c15.js.map": "/react-profile/static/js/main.4d1b3c15.js.map"
-  },
-  "entrypoints": [
-    "static/css/main.a43f8a5f.css",
-    "static/js/main.4d1b3c15.js"
-  ]
+  "main.css": "/react-profile/static/css/main.99ac9885.chunk.css",
+  "main.js": "/react-profile/static/js/main.a585f639.chunk.js",
+  "main.js.map": "/react-profile/static/js/main.a585f639.chunk.js.map",
+  "static/js/1.daf04083.chunk.js": "/react-profile/static/js/1.daf04083.chunk.js",
+  "static/js/1.daf04083.chunk.js.map": "/react-profile/static/js/1.daf04083.chunk.js.map",
+  "runtime~main.js": "/react-profile/static/js/runtime~main.5b2c36fb.js",
+  "runtime~main.js.map": "/react-profile/static/js/runtime~main.5b2c36fb.js.map",
+  "static/media/mugshot.jpg": "/react-profile/static/media/mugshot.217c6a31.jpg",
+  "static/css/main.99ac9885.chunk.css.map": "/react-profile/static/css/main.99ac9885.chunk.css.map",
+  "index.html": "/react-profile/index.html",
+  "precache-manifest.3f676bd0fe4572df3ae5570383287c86.js": "/react-profile/precache-manifest.3f676bd0fe4572df3ae5570383287c86.js",
+  "service-worker.js": "/react-profile/service-worker.js"
 }
