@@ -3,36 +3,61 @@
   height: auto;
 }
 
-.cardSizeSmall{
-width: 25%;
-height: 25%;
-margin-left: 6%;
+.cardSizeSmall {
+  width: 25%;
+  height: 25%;
+  margin-left: 6%;
+  position: relative;
 }
 
-img.overlay:hover {
-  background-color: grey;
-  position:absolute;
+.card-image {
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
   height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: grey;
+}
+
+.cardSizeSmall:hover .overlay {
   opacity: 1;
+}
 
+.overlay-content {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
 
+.overlay-content a {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  text-decoration: none;
 }
 
 .cardHead {
-    font-size: larger;
-    color: azure;
+  font-size: larger;
+  color: azure;
 }
 
-a:hover{
-    text-decoration: underline;
-    color:lightblue;
+a:hover {
+  text-decoration: underline;
+  color: lightblue;
 }
 
-h3{
-    color: azure;
+h3 {
+  color: azure;
 }
 
 @media only screen and (max-width: 768px) {
@@ -41,20 +66,23 @@ h3{
     height: auto;
   }
 
-  .cardSizeSmall{
+  .cardSizeSmall {
     width: 50%;
     height: 50%;
     margin-left: 0;
   }
 
-  img.overlay:hover {
+  .overlay {
     background-color: grey;
     position: static;
     width: 100%;
     height: 100%;
-    opacity: 0.8;
+    opacity: 0;
   }
 
+  .cardSizeSmall:hover .overlay {
+    opacity: 1;
+  }
   .cardHead {
     font-size: medium;
     color: white;

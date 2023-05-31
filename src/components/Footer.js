@@ -8,7 +8,7 @@ function Footer() {
         <h4>Find me at:</h4>
         <ul className="social-icons">
           <li>
-            <a href="https://github.com/DaveEstey" class="social-icon">
+            <a href="https://github.com/DaveEstey" className="social-icon">
               <i className="fa fa-github"></i>
             </a>
           </li>

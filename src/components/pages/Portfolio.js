@@ -1,20 +1,16 @@
 import React from "react";
 import Projects from "../Projects";
+import "../../styles/Portfolio.css";
 
 const Portfolio = () => {
   const info = [
-     {
-      title: "Body Buddy",
-      img: "https://raw.githubusercontent.com/DaveEstey/react-profile/main/src/images/body_buddy.png",
-      github: "https://github.com/DaveEstey/body-buddy",
-      deployed: "https://body-buddy.herokuapp.com/",
-    },
     {
-      title: "Bootcamp Work Finder",
-      img: "https://raw.githubusercontent.com/DaveEstey/react-profile/main/src/images/bootcamp.png",
-      github: "https://github.com/DaveEstey/bootcamp-work-finder/",
-      deployed: "https://david-bootcamp-work-finder.herokuapp.com/",
+      title: "Social Networking",
+      img: "https://raw.githubusercontent.com/DaveEstey/react-profile/main/src/images/social_network.png",
+      github: "https://github.com/DaveEstey/Social-Networking",
+      deployed: "https://github.com/DaveEstey/Social-Networking",
     },
+    
     {
       title: "Investment Solutions",
       img: "https://raw.githubusercontent.com/DaveEstey/react-profile/main/src/images/investment.png",
@@ -34,11 +30,17 @@ const Portfolio = () => {
       deployed: "https://text-editor-david.herokuapp.com/",
     },
     {
-      title: "Social Networking",
-      img: "https://raw.githubusercontent.com/DaveEstey/react-profile/main/src/images/social_network.png",
-      github: "https://github.com/DaveEstey/Social-Networking",
-      deployed: "https://github.com/DaveEstey/Social-Networking",
+      title: "Body Buddy",
+      img: "https://raw.githubusercontent.com/DaveEstey/react-profile/main/src/images/body_buddy.png",
+      github: "https://github.com/DaveEstey/body-buddy",
+      deployed: "https://body-buddy.herokuapp.com/",
     },
+    {
+      title: "Bootcamp Work Finder",
+      img: "https://raw.githubusercontent.com/DaveEstey/react-profile/main/src/images/bootcamp.png",
+      github: "https://github.com/DaveEstey/bootcamp-work-finder/",
+      deployed: "https://david-bootcamp-work-finder.herokuapp.com/",
+    }
   ];
 
   return (

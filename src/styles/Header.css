@@ -1,9 +1,28 @@
-div{
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+.header {
+    width: 100%;
+    margin-bottom: 5%;
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
+    background-color: #191b22;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
-h1 {
-    font-size: 70px;
-    font-weight: 600;
-    margin-bottom: 100px;
+
+.header h1 {
+    margin: 0 auto; /* Centers the h1 horizontally */
+    font-size: 3em; /* or whatever size you want */
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in-out;
+    padding: 5%;
+}
+
+.header h1:hover {
+    color: #bbbbbb;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }

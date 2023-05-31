@@ -14,37 +14,30 @@ html {
   background-attachment: fixed;
 }
 
-.App {
-  text-align: center;
+main {
+  flex: 1 0 auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  min-height: 100vh;
 }
 
-@media screen and (max-width: 600px) {
-  .App-header {
-    background-color: #282c34;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-    color: white;
-  }
+.App {
+  text-align: center;
+  flex: 1 0 auto;
 }
-  
+
+
+.Footer {
+  height: 50px;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* This will take the full viewport height */
+}
 

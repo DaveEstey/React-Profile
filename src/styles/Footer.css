@@ -1,6 +1,7 @@
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
 footer {
-  position: absolute;
+  position: static;
+  padding: 10% 0 0 0;
   bottom: 0;
   left: 0;
   width: 100%;
@@ -8,11 +9,6 @@ footer {
 
 }
 
-
-div{
-   display: flex;
-   width: 100%;
-}
 a {
   text-decoration: none;
   color: #fff;
@@ -77,8 +73,3 @@ ul.social-icons {
   background-color: #0073a4;
 }
 
-@media (max-height: 768px) {
-  footer {
-    position: fixed;
-  }
-}

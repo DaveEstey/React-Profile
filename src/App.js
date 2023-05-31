@@ -21,8 +21,8 @@ return (
     <Route path='/resume' Component= { About }/>
     <Route path='/react-profile/contact' Component={ Contact }/>
     </Routes>
+    
     <Footer/>
-
     </BrowserRouter>
     )   
 }
